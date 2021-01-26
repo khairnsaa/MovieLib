@@ -1,0 +1,56 @@
+[
+    {
+        "id": "0",
+        "title": "La Casa De Papel",
+        "Genre": "thriller, Heist, Crime",
+        "cast": "Alvaro Morte, Ursula Corbero, Alba Flores, Jaime Llorente, Pedro Alonso, Miguel Herran",
+        "image": "lcdp.jpg",
+        "hero": "lcdp-horizontal.jpg",
+        "synopsis": "A criminal mastermind who goes by The Professor has a plan to pull off the biggest heist in recorded history -- to print billions of euros in the Royal Mint of Spain. To help him carry out the ambitious plan, he recruits eight people with certain abilities and who have nothing to lose. The group of thieves take hostages to aid in their negotiations with the authorities, who strategize to come up with a way to capture The Professor. As more time elapses, the robbers prepare for a showdown with the police."
+    },
+    {
+        "id": "1",
+        "title": "Prison Break",
+        "Genre": "thriller, Crime",
+        "cast": "Wentworth Miller, Sarah Wayne Callies, Dominic Purcell, Robert Knepper, William Fichtner",
+        "image": "prisonbreak.jpg",
+        "hero": "prisonbreak-horizontal.jpg",
+        "synopsis": "adadasda"
+    },
+    {
+        "id": "2",
+        "title": "How I Met Your Mother",
+        "Genre": "Comedy, Drama, Sitcom, Romance ",
+        "cast": "Neil Patrick Harris, Cobie Smulder, Josh Radnor, Jason Segel",
+        "image": "himym.jpg",
+        "hero": "himym-horizontal.jpg",
+        "synopsis": "Ted Mosby, an architect, recounts to his children the events that led him to meet their mother. His journey is made more eventful by the presence of his friends Lily, Marshall, Robin and Barney."
+    },
+    {
+        "id": "3",
+        "title": "Agents Of Shield",
+        "Genre": "Action",
+        "cast": "Chloe Bennet, Elizabeth Henstridge, Ming-Na Wen, Clark Greg",
+        "image": "aos.jpg",
+        "hero": "aos-horizontal.jpeg",
+        "synopsis": "Agent Phil Coulson leads a team of highly skilled agents from the global law-enforcement organisation known as S.H.I.E.L.D. Together, they combat extraordinary and inexplicable threats."
+    },
+    {
+        "id": "4",
+        "title": "Brooklyn Nine Nine",
+        "Genre": "Comedy, Sitcom, Police Procedural",
+        "cast": "Andy Samberg, Mellisa Fumero, Stephanie Beatrize, Chelsea Perreti, Terry Crews",
+        "image": "brooklyn_nine_nine.jpg",
+        "hero": "brooklyn_nine_nine-horizontal.jpeg",
+        "synopsis": "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City."
+    },
+    {
+        "id": "5",
+        "title": "Avengers End Game",
+        "Genre": "Action, Superheroes",
+        "cast": "Robert, Downey Jr, Chris Hemsworth, Chris Evans, Scarlett Johansson",
+        "image": "end_game.jpg",
+        "hero": "end_game-horizontal.jpg",
+        "synopsis": "After Thanos, an intergalactic warlord, disintegrates half of the universe, the Avengers must reunite and assemble again to reinvigorate their trounced allies and restore balance."
+    }
+]

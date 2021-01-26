@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+}
+header{
+    margin: 5px 10px;
+}
+.container{
+    margin: 10px auto;
+    width: 80%;
+}
+h1, h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+h3{
+    margin: 10px 0;
+    font-size: 16px;
+}
+.card{
+    margin: 20px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 4px 4px 10px rgba(75, 67, 67, 0.4);
+}
+.title{
+    margin-top: 10px ;
+    padding: 5px 0;
+    text-align: center;
+}
+.button{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 10px 0;
+    text-align: center;
+    padding: 10px;
+    background: none;
+    border-radius: 10px;
+    width: 90%;
+    border: 1px solid #f7b119;
+    text-decoration: none;
+    cursor: pointer; 
+    color: black;
+}
+.button:hover{
+    background-color: #f7b119;
+    color: white;
+}
+.film-name{
+    margin: 20px 0;
+}
+.hero{
+    width: 100%;
+    background-size: cover;
+}
+.film-description{
+    margin: -5px 0;
+    padding: 20px;
+    line-height: 20px;
+    background-color: white;
+}
+.point{
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.film-cast, .film-genre, .synopsis{
+    font-weight: normal;
+}
+/* footer{
+    background-color: white;
+
+} */

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieLib</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Helvetica, sans-serif;
+        }
+
+        body {
+            background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+            background-repeat: no-repeat;
+            min-height: 100vh;
+
+        }
+
+        header {
+            margin: 5px 10px;
+        }
+
+        .container {
+            margin: 10px auto;
+            width: 80%;
+        }
+
+        h1,
+        h3 {
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        .card-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .card {
+            margin: 20px;
+            width: 250px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 4px 4px 10px rgba(75, 67, 67, 0.4);
+        }
+
+        .hero {
+            width: 100%;
+            background-size: cover;
+        }
+
+        .title {
+            margin-top: 10px;
+            padding: 5px 0;
+            text-align: center;
+        }
+
+        .button {
+            display: inline-block;
+            position: relative;
+            left: 50%;
+            transform: translate(-50%);
+            margin: 10px 0;
+            text-align: center;
+            padding: 10px;
+            background: none;
+            border-radius: 10px;
+            width: 90%;
+            border: 1px solid #f7b119;
+            text-decoration: none;
+            cursor: pointer;
+            color: black;
+        }
+
+        .button:hover {
+            background-color: #f7b119;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>MovieLib</h2>
+    </header>
+
+
+    <div class="container">
+        <h1>What do you want to watch?</h1>
+        <h3>best pick for you</h3>
+        <div class="card-container">
+            {%CARDS%}
+        </div>
+    </div>
+
+</html>
